@@ -30,15 +30,11 @@ Registering a Signal Receiver
 *Async Signals* are registered exactly like "normal" Django signals.
 You can either register them manually::
 
-.. code-block:: python
-
     from async_signals.signals import request_finished
 
     request_finished.connect(my_callback)
 
 You can also use the decorator included with Django::
-
-.. code-block:: python
 
     from async_signals.signals import request_finished
     from django.dispatch import receiver
