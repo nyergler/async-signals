@@ -87,3 +87,6 @@ If no queue is specified, the default Celery queue will be used.
 
 License
 =======
+
+**Async Signals** is made available under a BSD license; see LICENSE
+for details.
