@@ -90,3 +90,7 @@ License
 
 **Async Signals** is made available under a BSD license; see LICENSE
 for details.
+
+.. _`Django signals`: https://docs.djangoproject.com/en/dev/topics/signals/
+.. _Celery: http://www.celeryproject.org/
+.. _`Celery queues`: http://docs.celeryproject.org/en/latest/userguide/routing.html
