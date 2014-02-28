@@ -15,7 +15,6 @@ class AsyncSignal(Signal):
     def send(self, sender, **named):
         """Send the signal via Celery."""
 
-        # XXX verify calling syntax for named queues
         self.propogate_signal.apply_async(
             args=(sender),
             kwargs=named,
